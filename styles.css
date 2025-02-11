@@ -29,6 +29,7 @@ body {
 }
 
 .container header {
+    margin: 3rem;
 
 }
 .container header nav {}
@@ -40,7 +41,7 @@ body {
 .container header nav ul li{}
 .container header nav ul li{}
 .container header nav ul li a{
-    margin: 1rem;
+    margin-right: 1rem;
     color: black;
 }
 .container header nav ul li a:hover{
@@ -49,6 +50,13 @@ body {
 }
 
 .container main {
+border: 1px solid peachpuff;
+box-shadow: 1rem peachpuff;
+border-radius: 50px;
+padding: 0 5rem 5rem 5rem;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
 }
 .container main article {
     display: flex;
@@ -73,7 +81,25 @@ body {
     height: auto;
     border-radius: 50px;
 }
-.container main article p {}
-.container main article blockquote {}
+.container main article p {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    width: 60%;
+    margin-bottom: 5rem;
+}
+
+.container main article span {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.container main article blockquote {
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+
+
+}
 
 .container footer {}
