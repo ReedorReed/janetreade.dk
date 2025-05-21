@@ -69,25 +69,25 @@ The style guide contains the following elements:
 ```text
 
 indie-project/
-├── assets/            # Billeder, ikoner og andre medier
-│   ├── images/        # Billeder til website
-│   ├── icons/         # Ikoner og grafiske elementer
-│   └── fonts/         # Skrifttyper
+├── assets/            # Pictures, icons & other media
+│   ├── images/        # Website pictures
+│   ├── icons/         # Icons & graphic elements
+│   └── fonts/         # Fonts
 ├── css/               # Stylesheets
-│   ├── main.css       # Hovedstylesheet
-│   ├── gallery.css    # Styling til galleri
-│   └── form.css       # Styling til kontaktformular
-├── js/                # JavaScript filer
-│   ├── main.js        # Hovedscript
-│   ├── gallery.js     # Funktionalitet til galleri
-│   └── form.js        # Validering og funktionalitet til formular
-├── index.html         # Forside
-├── about.html         # Om virksomheden
-├── booking.html       # Booking side
+│   ├── styles.css     # Main stylesheet
+│   ├── gallery.css    # Styling for gallery
+│   └── form.css       # Styling for contact form
+├── js/                # JavaScript files
+│   ├── script.js      # Main script
+│   ├── gallery.js     # Functionality for gallery
+│   └── form.js        # Validation & functionality for form
+├── index.html         # Front page
+├── about.html         # About page
+├── booking.html       # Booking page
 ├── blog.html          # Blog
-├── contact.html       # Kontaktside
-├── styleguide.html    # Visuel styleguide
-└── README.md          # Projektdokumentation
+├── contact.html       # Contact page
+├── styleguide.html    # Visual styleguide
+└── README.md          # Projekt documentation
 ```
 
 ## Deadlines
