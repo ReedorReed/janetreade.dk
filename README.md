@@ -1,6 +1,6 @@
-# Indie Web Development Project
+# JanetReade.dk Project
 
-- [Indie Web Development Project](#indie-web-development-project)
+- [JanetReade.dk Project](#janetreadedk-project)
   - [Project Description](#project-description)
     - [Key Features](#key-features)
   - [Technologies](#technologies)
@@ -17,7 +17,7 @@
 
 ## Project Description
 
-This project challenges me to develop a website for a self-chosen indie business. The purpose is to create an aesthetically pleasing and user-friendly website that effectively communicates the business concept and values. The project allows you to apply and demonstrate web development skills learned throughout the foundation course.
+This project challenges me to develop a website for a life/business coach. The purpose is to create an aesthetically pleasing and user-friendly website that effectively communicates the business concept and values. The project allows you to apply and demonstrate web development skills learned throughout the foundation course.
 
 ### Key Features
 
@@ -83,7 +83,8 @@ indie-project/
 │   └── form.js        # Validering og funktionalitet til formular
 ├── index.html         # Forside
 ├── about.html         # Om virksomheden
-├── gallery.html       # Galleriside
+├── booking.html       # Booking side
+├── blog.html          # Blog
 ├── contact.html       # Kontaktside
 ├── styleguide.html    # Visuel styleguide
 └── README.md          # Projektdokumentation
