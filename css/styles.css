@@ -1,0 +1,77 @@
+/* 
+_________   _________ _________ .____                                __   
+\_   ___ \ /   _____//   _____/ |    |   _____  ___.__. ____  __ ___/  |_ 
+/    \  \/ \_____  \ \_____  \  |    |   \__  \<   |  |/  _ \|  |  \   __\
+\     \____/        \/        \ |    |___ / __ \\___  (  <_> )  |  /|  |  
+ \______  /_______  /_______  / |_______ (____  / ____|\____/|____/ |__|  
+        \/        \/        \/          \/    \/\/                        
+ 
+*/
+
+/* Base reset */
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img,
+video,
+svg {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+:root {
+	/*Background colors*/
+	--bg-primary-color: #f2ede4;
+
+	/*Button colors*/
+	--btn-bg-primary-color: #8c7e6c;
+	--btn-txt-primart-color: #f2ede4;
+
+	/*Text colorts*/
+	--txt-primary-color: #000000;
+	--txt-secondary-color: #8c7e6c;
+}
+
+/* -----------reset end------------ */
+
+#header ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#header ul li {
+	margin-left: 15px;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.calender-icon {
+	height: 25px;
+	width: 25px;
+}
+
+.book-btn {
+	background-color: var(--btn-bg-primary-color);
+	height: 50px;
+	width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
