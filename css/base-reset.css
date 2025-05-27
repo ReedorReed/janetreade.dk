@@ -1,0 +1,56 @@
+/* 
+_________   _________ _________ .____                                __   
+\_   ___ \ /   _____//   _____/ |    |   _____  ___.__. ____  __ ___/  |_ 
+/    \  \/ \_____  \ \_____  \  |    |   \__  \<   |  |/  _ \|  |  \   __\
+\     \____/        \/        \ |    |___ / __ \\___  (  <_> )  |  /|  |  
+ \______  /_______  /_______  / |_______ (____  / ____|\____/|____/ |__|  
+        \/        \/        \/          \/    \/\/                        
+ 
+*/
+
+/* Base reset */
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img,
+video,
+svg {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+:root {
+	/*Background colors*/
+	--bg-primary-color: #f2ede4;
+	--bg-secondary-color: #ffffff;
+
+	/*Button colors*/
+	--btn-bg-primary-color: #8c7e6c;
+	--btn-txt-primary-color: #f2ede4;
+
+	/*Text colorts*/
+	--txt-primary-color: #000000;
+	--txt-secondary-color: #8c7e6c;
+}
+
+body {
+	background-color: var(--bg-primary-color);
+}
+body p {
+	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+}
+body h1,
+h2 {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}
