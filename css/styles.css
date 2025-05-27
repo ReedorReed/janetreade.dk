@@ -36,7 +36,7 @@ a {
 
 	/*Button colors*/
 	--btn-bg-primary-color: #8c7e6c;
-	--btn-txt-primart-color: #f2ede4;
+	--btn-txt-primary-color: #f2ede4;
 
 	/*Text colorts*/
 	--txt-primary-color: #000000;
@@ -44,34 +44,274 @@ a {
 }
 
 /* -----------reset end------------ */
+body {
+	background-color: var(--bg-primary-color);
+}
+body p {
+	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+}
+body h1, h2 {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}
 
-#header ul {
-	list-style: none;
+/* Mobile First Header Styles */
+#header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 20px;
+	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+	position: relative;
+}
+
+.header-top {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-#header ul li {
-	margin-left: 15px;
+	width: 100%;
 }
 
-#header {
+.header-logo {
+	height: 60px;
+	width: auto;
+}
+
+/* Mobile Book Button - Always visible under logo */
+.mobile-book-btn {
+	background-color: var(--btn-bg-primary-color);
+	padding: 12px 20px;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: var(--btn-txt-primary-color);
+    margin-top: 15px;
+	transition: background-color 0.3s ease;
+}
+
+.mobile-book-btn:hover {
+	background-color: var(--txt-secondary-color);
+}
+
+/* Hamburger Menu Button */
+.hamburger {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	padding: 10px;
+	z-index: 1001;
+}
+
+.hamburger span {
+	width: 25px;
+	height: 3px;
+	background-color: var(--btn-bg-primary-color);
+	margin: 3px 0;
+	transition: 0.3s;
+	transform-origin: center;
+}
+
+/* Hamburger Animation */
+.hamburger.active span:nth-child(1) {
+	transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+	opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+	transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Mobile Navigation - No book button inside */
+nav {
+	position: fixed;
+	top: 0;
+	right: -100%;
+	width: 100%;
+	height: 100vh;
+	background-color: var(--bg-primary-color);
+	transition: right 0.3s ease;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav.active {
+	right: 0;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+nav ul li a {
+	color: var(--txt-primary-color);
+	font-size: 24px;
+	font-weight: 300;
+	transition: color 0.3s ease;
+    font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+}
+
+nav ul li a:hover {
+    color: var(--txt-secondary-color);
 }
 
 .calender-icon {
-	height: 25px;
-	width: 25px;
+	height: 20px;
+	width: 20px;
+	margin-right: 8px;
 }
 
-.book-btn {
-	background-color: var(--btn-bg-primary-color);
-	height: 50px;
-	width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Hide desktop book button on mobile */
+.desktop-book-btn {
+	display: none;
+}
+
+/* Overlay for when menu is open */
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.overlay.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+/* Footer */
+footer {
+	background-color: var(--txt-primary-color);
+	color: var(--bg-primary-color);
+	padding: 30px 20px;
+	text-align: center;
+}
+
+.footer-info {
+	margin-top: 20px;
+}
+
+.footer-info a, .footer-info p {
+	color: var(--bg-primary-color);
+	display: block;
+	margin: 10px 0;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+	.header-logo {
+		height: 80px;
+	}
+	
+	.main-content-heading-box h2 {
+		font-size: 32px;
+	}
+	
+	.main-page-section {
+		padding: 60px 40px;
+	}
+	
+	.secondary-page-section {
+		padding: 60px 40px;
+	}
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+	.hamburger {
+		display: none;
+	}
+	
+	.mobile-book-btn {
+		display: none;
+	}
+	
+	#header {
+		flex-direction: row;
+		justify-content: center;
+		padding: 20px;
+	}
+	
+	.header-top {
+		width: auto;
+	}
+	
+	nav {
+		position: static;
+		width: auto;
+		height: auto;
+		background: none;
+		display: block;
+	}
+	
+	nav ul {
+		flex-direction: row;
+		gap: 30px;
+	}
+	
+	nav ul li a {
+		font-size: 16px;
+		text-transform: none;
+	}
+	
+	.header-logo {
+		height: 100px;
+		width: 425px;
+	}
+	
+	.desktop-book-btn {
+		display: flex;
+		background-color: var(--btn-bg-primary-color);
+		height: 50px;
+		width: 180px;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+		font-size: 20px;
+		text-transform: uppercase;
+		color: var(--btn-txt-primary-color);
+		margin-left: 15px;
+	}
+	
+	.main-page-section {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 80px 60px;
+		text-align: left;
+	}
+	
+	.main-content-heading-box {
+		flex: 1;
+		margin-right: 40px;
+	}
+	
+	.main-content-heading-box h2 {
+		font-size: 42px;
+	}
+	
+	#main-content-img {
+		flex: 1;
+		margin-top: 0;
+	}
 }
