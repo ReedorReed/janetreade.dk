@@ -25,6 +25,10 @@
 	width: auto;
 }
 
+.menu-logo {
+	display: none;
+}
+
 /* Mobile Book Button - Always visible under logo */
 .mobile-book-btn {
 	background-color: var(--btn-bg-primary-color);
@@ -194,26 +198,26 @@ main {
 
 /*Main content middle*/
 .secondary-page-section {
-    position: relative;
-    margin-bottom: 200px;
+	position: relative;
+	margin-bottom: 200px;
 }
 
 .secondary-page-section::before {
-    content: "";
-    width: 100vw;
-    height: 50vh;
-    background-image: url(/images/stacked-zen-stones-mindfulness.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: .5;
-    position: absolute;
-    z-index: 10;
+	content: '';
+	width: 100vw;
+	height: 50vh;
+	background-image: url(/images/stacked-zen-stones-mindfulness.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.5;
+	position: absolute;
+	z-index: 10;
 }
 
 .secondary-heading-box {
-    position: relative;
-    z-index: 20;
+	position: relative;
+	z-index: 20;
 }
 
 .secondary-heading-box h2 {
@@ -225,27 +229,155 @@ main {
 	background-color: var(--btn-bg-primary-color);
 	padding: 12px 20px;
 	display: flex;
-    width: 280px;
+	width: 280px;
 	justify-content: center;
 	align-items: center;
 	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	margin-top: 15px;
+	z-index: 20;
+	position: relative;
 }
 
+/*Bottom section*/
 
+/*Blog section*/
+
+.blog-title h2 {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+.blog-title {
+	width: 220px;
+	height: 70px;
+	background-color: var(--bg-secondary-color);
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.mySlides {
+	width: 390px;
+	height: 420px;
+	background-color: var(--bg-secondary-color);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.blog-card {
+	box-shadow: 1px 1px 5px 2px var(--shadow-primary-color);
+	width: 350px;
+	height: 380px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.blog-card p {
+	font-size: 12px;
+	font-weight: 100;
+}
+.blog-card h2 {
+	font-size: 20px;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.blog-card img {
+	width: 150px;
+	height: auto;
+}
+
+.blog-card figure {
+	width: 150px;
+	height: 150px;
+}
+
+#medit-img {
+	width: 150px;
+	height: 137px;
+}
+
+/*Quote section*/
+.wrapper-qte-bgk::before {
+	content: '';
+	width: 100vw;
+	height: 50vh;
+	background-image: url(/images/books_corner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.5;
+	position: absolute;
+	z-index: 1;
+}
+
+.wrapper-qte-bgk {
+	margin-bottom: 5rem;
+}
+
+.bottom-quote {
+	width: 260px;
+	height: 240px;
+	background-color: var(--bg-secondary-color);
+	padding: 5px 15px 5px 15px;
+	margin: 3rem 0 0 0;
+	position: relative;
+	z-index: 20;
+}
+
+.bottom-quote h2 {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 0;
+}
+
+.bottom-quote h3 {
+	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin: 5px 0 10px 20px;
+}
+
+.qte-intro-btn {
+	margin: 0 0 5rem 2rem;
+}
 
 /* Footer */
 footer {
 	background-color: var(--bg-primary-color);
 	color: var(--txt-primary-color);
 	padding: 30px 20px;
-	text-align: center;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-wrapper {
 }
 
 .footer-info {
 	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 2rem;
 }
 
 .footer-info a,
@@ -253,4 +385,9 @@ footer {
 	color: var(--txt-primary-color);
 	display: block;
 	margin: 10px 0;
+	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 100;
+	margin: 5px 0 10px 20px;
 }
+

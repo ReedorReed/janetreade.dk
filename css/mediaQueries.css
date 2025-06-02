@@ -1,24 +1,4 @@
-/* Tablet Styles */
 @media (min-width: 768px) {
-	.header-logo {
-		height: 80px;
-	}
-
-	.main-content-heading-box h2 {
-		font-size: 32px;
-	}
-
-	.main-page-section {
-		padding: 60px 40px;
-	}
-
-	.secondary-page-section {
-		padding: 60px 40px;
-	}
-}
-
-/* Desktop Styles */
-@media (min-width: 1024px) {
 	.hamburger {
 		display: none;
 	}
@@ -29,8 +9,15 @@
 
 	#header {
 		flex-direction: row;
-		justify-content: center;
 		padding: 20px;
+		margin-left: 22rem;
+	}
+
+	.header-logo {
+		display: none;
+	}
+	.menu-logo {
+		display: block;
 	}
 
 	.header-top {
@@ -71,28 +58,176 @@
 		font-size: 20px;
 		text-transform: uppercase;
 		color: var(--btn-txt-primary-color);
-		margin-left: 15px;
+		margin-left: 30px;
+	}
+
+	/*Main content top*/
+
+	main {
+		margin-top: 170px;
 	}
 
 	.main-page-section {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding: 80px 60px;
-		text-align: left;
+		height: 100vh;
 	}
 
 	.main-content-heading-box {
-		flex: 1;
-		margin-right: 40px;
+		width: 695px;
+		height: 571px;
+		background-color: var(--bg-secondary-color);
+		padding: 25px 35px 25px 55px;
+		margin: 3rem 0 10rem 0;
 	}
 
 	.main-content-heading-box h2 {
-		font-size: 42px;
+		font-weight: 100;
+		text-transform: uppercase;
+		font-size: 60px;
+		width: 70%;
+		margin: 0;
 	}
 
-	#main-content-img {
-		flex: 1;
-		margin-top: 0;
+	.main-content-heading-box p {
+		font-weight: 200;
+		font-style: italic;
+		font-size: 20px;
+		width: 80%;
+		margin-bottom: 40px;
+	}
+
+	.learn-more {
+		font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+		color: var(--txt-secondary-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.main-content-img {
+		width: 650.3px;
+		height: 558.74px;
+		margin: 0;
+		position: absolute;
+		top: 7rem;
+		left: 20rem;
+	}
+
+	.secondary-page-section {
+		height: 100vh;
+		margin-bottom: 0;
+	}
+
+	.secondary-page-section::before {
+		content: '';
+		width: 100vw;
+		height: 100vh;
+		background-image: url(/images/stacked-zen-stones-mindfulness.jpeg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		opacity: 0.5;
+		position: absolute;
+		z-index: 5;
+	}
+
+	.secondary-heading-box {
+		position: relative;
+		z-index: 20;
+	}
+
+	.secondary-heading-box h2 {
+		width: 80%;
+		font-size: 58px;
+	}
+
+	.secondary-heading-box p {
+		margin-bottom: 0;
+	}
+
+	.intro-book-btn {
+		color: var(--btn-txt-primary-color);
+		background-color: var(--btn-bg-primary-color);
+		padding: 12px 20px;
+		display: flex;
+		width: 280px;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		text-transform: uppercase;
+		z-index: 20;
+		position: relative;
+	}
+
+	/*Blog section*/
+
+	.slideshow-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.blog-title {
+		position: relative;
+		width: 695px;
+		height: auto;
+	}
+	.blog-title h2 {
+		font-size: 58px;
+	}
+
+	.slideshow-container,
+	.blog-title,
+	.mySlides,
+	.blog-card {
+		z-index: 25;
+	}
+
+	.bottom-section::before {
+		content: '';
+		width: 100vw;
+		height: 100vh;
+		background-image: url(/images/zen-sand-mindfulness.jpeg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		opacity: 0.5;
+		position: absolute;
+		z-index: 10;
+	}
+
+	.wrapper-qte-bgk::before {
+		display: none;
+	}
+
+	.bottom-quote {
+		width: 600px;
+		height: 200px;
+		background-color: none;
+		padding: 0;
+		margin: 0;
+		position: relative;
+		left: 30rem;
+		z-index: 20;
+	}
+
+	/*Footer*/
+
+	footer {
+		height: 30vh;
+	}
+
+	.footer-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.tlfMail {
+		display: flex;
+		
+	}
+
+	.cvrWeb {
+		display: flex;
+		
 	}
 }

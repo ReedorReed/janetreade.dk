@@ -42,6 +42,9 @@ a {
 	/*Text colorts*/
 	--txt-primary-color: #000000;
 	--txt-secondary-color: #8c7e6c;
+
+	/*Shadow color*/
+	--shadow-primary-color: rgba(89, 79, 70, 0.2);
 }
 
 body {
