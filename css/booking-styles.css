@@ -5,7 +5,7 @@ main {
 .booking-form-box {
 	width: 100vw;
 	height: 100vh;
-	background-image: url('images/meditationDaVinciArt.svg');
+	background-image: url('../images/meditationDaVinciArt.svg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -100,19 +100,19 @@ textarea,
 		width: 50%;
 	}
 
-    .form-wrapper h2 {
+	.form-wrapper h2 {
 		font-size: 40px;
 	}
 
-    .booking-main-content-heading-box {
-        width: 40vw;
-    }
+	.booking-main-content-heading-box {
+		width: 40vw;
+	}
 
-    .booking-main-content-heading-box h2 {
-        font-size: 40px;
-    }
+	.booking-main-content-heading-box h2 {
+		font-size: 40px;
+	}
 
-    .booking-main-content-heading-box p {
-        font-size: 16px;
-    }
+	.booking-main-content-heading-box p {
+		font-size: 16px;
+	}
 }
