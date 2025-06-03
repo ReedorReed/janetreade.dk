@@ -1,0 +1,87 @@
+main {
+	margin-top: 200px;
+}
+
+.booking-form-box {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(/images/meditationDaVinciArt.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking-main-content-heading-box {
+	width: 80vw;
+	height: 25vh;
+	background-color: var(--bg-secondary-color);
+	padding: 20px;
+	margin: 3rem 0;
+}
+
+.booking-main-content-heading-box h2 {
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 20px;
+	width: 70%;
+	margin: 0;
+}
+
+.booking-main-content-heading-box p {
+	font-weight: 200;
+	font-size: 13px;
+	width: 80%;
+}
+
+.form-wrapper {
+    width: 90%;
+	background-color: rgba(140,126, 108, 0.5);
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-wrapper h2 {
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#form input, textarea, #submit-btn {
+    border: none;
+    font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+
+}
+
+#form input {
+    height: 30px;
+    padding: 8px;
+}
+
+#form textarea {
+    padding: 8px;
+    resize: none;
+    height: 100px;
+}
+
+#date-time {
+    color: rgb(117 117 117);
+}
+
+#submit-btn {
+    margin: 10px;
+    height: 30px;
+    width: 210px;
+    background-color: var(	--btn-bg-secondary-color);
+    text-transform: uppercase;
+}
