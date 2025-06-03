@@ -161,7 +161,7 @@ main {
 	content: '';
 	width: 100vw;
 	height: 50vh;
-	background-image: url(/images/books_corner.png);
+	background-image: url(../images/books_corner.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -266,7 +266,7 @@ main {
 		content: '';
 		width: 100vw;
 		height: 100vh;
-		background-image: url(/images/stacked-zen-stones-mindfulness.jpeg);
+		background-image: url(../images/stacked-zen-stones-mindfulness.jpeg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -331,7 +331,7 @@ main {
 		content: '';
 		width: 100vw;
 		height: 100vh;
-		background-image: url(/images/zen-sand-mindfulness.jpeg);
+		background-image: url(../images/zen-sand-mindfulness.jpeg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
