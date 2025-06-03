@@ -52,7 +52,7 @@ main {
 	content: '';
 	width: 100vw;
 	height: 50vh;
-	background-image: url(/images/stacked-zen-stones-mindfulness.jpeg);
+	background-image: url(../images/stacked-zen-stones-mindfulness.jpeg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
