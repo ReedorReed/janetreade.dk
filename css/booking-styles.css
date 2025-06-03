@@ -9,9 +9,9 @@ main {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .booking-main-content-heading-box {
@@ -37,8 +37,8 @@ main {
 }
 
 .form-wrapper {
-    width: 90%;
-	background-color: rgba(140,126, 108, 0.5);
+	width: 90%;
+	background-color: rgba(140, 126, 108, 0.5);
 	padding: 10px 20px;
 	display: flex;
 	flex-direction: column;
@@ -52,36 +52,67 @@ main {
 }
 
 #form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
-#form input, textarea, #submit-btn {
-    border: none;
-    font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
-
+#form input,
+textarea,
+#submit-btn {
+	border: none;
+	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
 }
 
 #form input {
-    height: 30px;
-    padding: 8px;
+	height: 30px;
+	padding: 8px;
 }
 
 #form textarea {
-    padding: 8px;
-    resize: none;
-    height: 100px;
+	padding: 8px;
+	resize: none;
+	height: 100px;
 }
 
 #date-time {
-    color: rgb(117 117 117);
+	color: rgb(117 117 117);
 }
 
 #submit-btn {
-    margin: 10px;
-    height: 30px;
-    width: 210px;
-    background-color: var(	--btn-bg-secondary-color);
-    text-transform: uppercase;
+	margin: 10px;
+	height: 30px;
+	width: 210px;
+	background-color: var(--btn-bg-secondary-color);
+	text-transform: uppercase;
+}
+
+/*Media Query*/
+
+@media (min-width: 768px) {
+	#form {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 50px;
+	}
+
+	.form-wrapper {
+		width: 50%;
+	}
+
+    .form-wrapper h2 {
+		font-size: 40px;
+	}
+
+    .booking-main-content-heading-box {
+        width: 40vw;
+    }
+
+    .booking-main-content-heading-box h2 {
+        font-size: 40px;
+    }
+
+    .booking-main-content-heading-box p {
+        font-size: 16px;
+    }
 }
