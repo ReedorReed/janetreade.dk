@@ -1,0 +1,538 @@
+/*Main content top*/
+
+main {
+	margin-top: 170px;
+}
+
+.main-content-heading-box {
+	width: 260px;
+	height: 240px;
+	background-color: var(--bg-secondary-color);
+	padding: 5px 15px 5px 15px;
+	margin: 3rem 0 10rem 0;
+}
+
+.main-content-heading-box h2 {
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 20px;
+	width: 60%;
+	margin: 0;
+}
+
+.main-content-heading-box p {
+	font-weight: 200;
+	font-style: italic;
+	font-size: 13px;
+	width: 80%;
+}
+
+.learn-more {
+	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+	color: var(--txt-secondary-color);
+	font-weight: 500;
+}
+
+.main-content-img {
+	width: 158px;
+	height: 131px;
+	margin: 0;
+	position: absolute;
+	top: 7.4rem;
+	left: 6.3rem;
+}
+
+/*Main content middle*/
+.secondary-page-section {
+	position: relative;
+	margin-bottom: 200px;
+}
+
+.secondary-page-section::before {
+	content: '';
+	width: 100vw;
+	height: 50vh;
+	background-image: url(/images/stacked-zen-stones-mindfulness.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.5;
+	position: absolute;
+	z-index: 10;
+}
+
+.secondary-heading-box {
+	position: relative;
+	z-index: 20;
+}
+
+.secondary-heading-box h2 {
+	width: 80%;
+}
+
+.intro-book-btn {
+	color: var(--btn-txt-primary-color);
+	background-color: var(--btn-bg-primary-color);
+	padding: 12px 20px;
+	display: flex;
+	width: 280px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	z-index: 20;
+	position: relative;
+}
+
+/*Bottom section*/
+
+/*Blog section*/
+
+.blog-title h2 {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+.blog-title {
+	width: 220px;
+	height: 70px;
+	background-color: var(--bg-secondary-color);
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.mySlides {
+	width: 390px;
+	height: 420px;
+	background-color: var(--bg-secondary-color);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.blog-card {
+	box-shadow: 1px 1px 5px 2px var(--shadow-primary-color);
+	width: 350px;
+	height: 380px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.blog-card p {
+	font-size: 12px;
+	font-weight: 100;
+}
+.blog-card h2 {
+	font-size: 20px;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.blog-card img {
+	width: 150px;
+	height: auto;
+}
+
+.blog-card figure {
+	width: 150px;
+	height: 150px;
+}
+
+#medit-img {
+	width: 150px;
+	height: 137px;
+}
+
+/*Quote section*/
+.wrapper-qte-bgk::before {
+	content: '';
+	width: 100vw;
+	height: 50vh;
+	background-image: url(/images/books_corner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.5;
+	position: absolute;
+	z-index: 1;
+}
+
+.wrapper-qte-bgk {
+	margin-bottom: 5rem;
+}
+
+.bottom-quote {
+	width: 260px;
+	height: 240px;
+	background-color: var(--bg-secondary-color);
+	padding: 5px 15px 5px 15px;
+	margin: 3rem 0 0 0;
+	position: relative;
+	z-index: 20;
+}
+
+.bottom-quote h2 {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 0;
+}
+
+.bottom-quote h3 {
+	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin: 5px 0 10px 20px;
+}
+
+.qte-intro-btn {
+	margin: 0 0 5rem 2rem;
+}
+
+/*Main content top*/
+
+	main {
+		margin-top: 170px;
+	}
+
+	.main-page-section {
+		height: 100vh;
+	}
+
+	.main-content-heading-box {
+		width: 695px;
+		height: 571px;
+		background-color: var(--bg-secondary-color);
+		padding: 25px 35px 25px 55px;
+		margin: 3rem 0 10rem 0;
+	}
+
+	.main-content-heading-box h2 {
+		font-weight: 100;
+		text-transform: uppercase;
+		font-size: 60px;
+		width: 70%;
+		margin: 0;
+	}
+
+	.main-content-heading-box p {
+		font-weight: 200;
+		font-style: italic;
+		font-size: 20px;
+		width: 80%;
+		margin-bottom: 40px;
+	}
+
+	.learn-more {
+		font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+		color: var(--txt-secondary-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.main-content-img {
+		width: 650.3px;
+		height: 558.74px;
+		margin: 0;
+		position: absolute;
+		top: 7rem;
+		left: 20rem;
+	}
+
+	.secondary-page-section {
+		height: 100vh;
+		margin-bottom: 0;
+	}
+
+	.secondary-page-section::before {
+		content: '';
+		width: 100vw;
+		height: 100vh;
+		background-image: url(/images/stacked-zen-stones-mindfulness.jpeg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		opacity: 0.5;
+		position: absolute;
+		z-index: 5;
+	}
+
+	.secondary-heading-box {
+		position: relative;
+		z-index: 20;
+	}
+
+	.secondary-heading-box h2 {
+		width: 80%;
+		font-size: 58px;
+	}
+
+	.secondary-heading-box p {
+		margin-bottom: 0;
+	}
+
+	.intro-book-btn {
+		color: var(--btn-txt-primary-color);
+		background-color: var(--btn-bg-primary-color);
+		padding: 12px 20px;
+		display: flex;
+		width: 280px;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		text-transform: uppercase;
+		z-index: 20;
+		position: relative;
+	}
+
+	/*Blog section*/
+
+	.slideshow-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.blog-title {
+		position: relative;
+		width: 695px;
+		height: auto;
+	}
+	.blog-title h2 {
+		font-size: 58px;
+	}
+
+	.slideshow-container,
+	.blog-title,
+	.mySlides,
+	.blog-card {
+		z-index: 25;
+	}
+
+	.bottom-section::before {
+		content: '';
+		width: 100vw;
+		height: 100vh;
+		background-image: url(/images/zen-sand-mindfulness.jpeg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		opacity: 0.5;
+		position: absolute;
+		z-index: 10;
+	}
+
+	.wrapper-qte-bgk::before {
+		display: none;
+	}
+
+	.wrapper-qte-bgk {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	.bottom-quote {
+		width: 600px;
+		height: 200px;
+		background: none;
+		position: relative;
+		z-index: 20;
+	}
+
+	.bottom-quote h2 {
+		width: 60%;
+		font-size: 40px;
+		font-weight: 100;
+	}
+
+	.qte-intro-btn {
+		position: relative;
+		top: 3rem;
+		right: 14rem;
+	}
+
+
+	/*Media query*/
+
+	@media (min-width: 768px) {
+	
+		/*Main content top*/
+	
+		main {
+			margin-top: 170px;
+		}
+	
+		.main-page-section {
+			height: 100vh;
+		}
+	
+		.main-content-heading-box {
+			width: 695px;
+			height: 571px;
+			background-color: var(--bg-secondary-color);
+			padding: 25px 35px 25px 55px;
+			margin: 3rem 0 10rem 0;
+		}
+	
+		.main-content-heading-box h2 {
+			font-weight: 100;
+			text-transform: uppercase;
+			font-size: 60px;
+			width: 70%;
+			margin: 0;
+		}
+	
+		.main-content-heading-box p {
+			font-weight: 200;
+			font-style: italic;
+			font-size: 20px;
+			width: 80%;
+			margin-bottom: 40px;
+		}
+	
+		.learn-more {
+			font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+			color: var(--txt-secondary-color);
+			font-weight: 500;
+			font-size: 20px;
+		}
+	
+		.main-content-img {
+			width: 650.3px;
+			height: 558.74px;
+			margin: 0;
+			position: absolute;
+			top: 7rem;
+			left: 20rem;
+		}
+	
+		.secondary-page-section {
+			height: 100vh;
+			margin-bottom: 0;
+		}
+	
+		.secondary-page-section::before {
+			content: '';
+			width: 100vw;
+			height: 100vh;
+			background-image: url(/images/stacked-zen-stones-mindfulness.jpeg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			opacity: 0.5;
+			position: absolute;
+			z-index: 5;
+		}
+	
+		.secondary-heading-box {
+			position: relative;
+			z-index: 20;
+		}
+	
+		.secondary-heading-box h2 {
+			width: 80%;
+			font-size: 58px;
+		}
+	
+		.secondary-heading-box p {
+			margin-bottom: 0;
+		}
+	
+		.intro-book-btn {
+			color: var(--btn-txt-primary-color);
+			background-color: var(--btn-bg-primary-color);
+			padding: 12px 20px;
+			display: flex;
+			width: 280px;
+			justify-content: center;
+			align-items: center;
+			font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			text-transform: uppercase;
+			z-index: 20;
+			position: relative;
+		}
+	
+		/*Blog section*/
+	
+		.slideshow-container {
+			display: flex;
+			justify-content: center;
+		}
+	
+		.blog-title {
+			position: relative;
+			width: 695px;
+			height: auto;
+		}
+		.blog-title h2 {
+			font-size: 58px;
+		}
+	
+		.slideshow-container,
+		.blog-title,
+		.mySlides,
+		.blog-card {
+			z-index: 25;
+		}
+	
+		.bottom-section::before {
+			content: '';
+			width: 100vw;
+			height: 100vh;
+			background-image: url(/images/zen-sand-mindfulness.jpeg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			opacity: 0.5;
+			position: absolute;
+			z-index: 10;
+		}
+	
+		.wrapper-qte-bgk::before {
+			display: none;
+		}
+	
+		.wrapper-qte-bgk {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+		}
+	
+		.bottom-quote {
+			width: 600px;
+			height: 200px;
+			background: none;
+			position: relative;
+			z-index: 20;
+		}
+	
+		.bottom-quote h2 {
+			width: 60%;
+			font-size: 40px;
+			font-weight: 100;
+		}
+	
+		.qte-intro-btn {
+			position: relative;
+			top: 3rem;
+			right: 14rem;
+		}
+	}
+	

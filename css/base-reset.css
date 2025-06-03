@@ -34,9 +34,11 @@ a {
 	/*Background colors*/
 	--bg-primary-color: #f2ede4;
 	--bg-secondary-color: #ffffff;
+	--bg-tertiary-color: #8c7e6c;
 
 	/*Button colors*/
 	--btn-bg-primary-color: #8c7e6c;
+	--btn-bg-secondary-color: #d9d2c5;
 	--btn-txt-primary-color: #f2ede4;
 
 	/*Text colorts*/

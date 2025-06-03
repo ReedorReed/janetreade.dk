@@ -1,0 +1,332 @@
+/*Main content*/
+main {
+	margin-top: 200px;
+}
+
+.about-main-content-heading-box {
+	width: 70vw;
+	height: 60vh;
+	background-color: var(--bg-secondary-color);
+	padding: 10px 0 10px 20px;
+	margin: 3rem 0 0 0;
+}
+
+.about-main-content-heading-box h2 {
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 20px;
+	width: 70%;
+	margin: 0;
+}
+
+.about-main-content-heading-box p {
+	font-weight: 200;
+	font-size: 13px;
+	width: 80%;
+}
+
+.about-main-content-img {
+	width: 156px;
+	height: 165.6px;
+	margin: 0;
+	position: absolute;
+	top: 11rem;
+	left: 14rem;
+}
+
+.about-quote {
+	margin: 50px 0 0 0;
+	width: 100%;
+}
+
+.about-quote span {
+	font-weight: 400;
+}
+
+.about-skills {
+	width: 70vw;
+	height: 40vh;
+	background-color: var(--bg-secondary-color);
+	padding: 10px 0 10px 20px;
+	margin: 1rem 0;
+}
+
+.about-skills p {
+	font-weight: 200;
+	font-size: 13px;
+	width: 80%;
+}
+
+.about-skills li {
+	font-weight: 200;
+	font-size: 13px;
+	width: 80%;
+}
+
+/*Secondary content*/
+.about-secondary-page-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about-secondary-content-heading-box {
+	width: 80vw;
+	height: 62vh;
+	background: var(--bg-tertiary-color);
+	padding: 15px 15px;
+	position: relative;
+	top: -2rem;
+}
+.about-secondary-content-heading-box h2 {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	margin: 0;
+}
+
+.about-secondary-content-heading-box p {
+	font-weight: 200;
+	font-size: 13px;
+	width: 95%;
+}
+
+.about-secondary-content-heading-box span {
+	font-weight: 400;
+}
+
+.about-secondary-content-heading-box-bottom {
+	width: 80vw;
+	height: 30vh;
+	background: var(--bg-tertiary-color);
+	padding: 20px 10px;
+}
+
+.about-secondary-content-heading-box-bottom h2 {
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	margin: 0;
+}
+
+.about-secondary-content-heading-box-bottom p {
+	font-weight: 200;
+	font-size: 13px;
+	width: 95%;
+}
+
+.about-bottom-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom-img {
+	opacity: 0.5;
+	position: relative;
+	width: 210px;
+	height: auto;
+	top: 2rem;
+}
+
+
+
+.intro-book-btn {
+	color: var(--txt-primary-color);
+	background-color: var(--btn-bg-secondary-color);
+	padding: 12px 20px;
+	display: flex;
+	width: 280px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	z-index: 20;
+	position: relative;
+}
+
+#footer {
+	height: 24vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media query*/
+
+@media (min-width: 768px) {
+
+	.about-main-content-heading-box {
+		width: 40vw;
+		height: 60vh;
+		background-color: var(--bg-secondary-color);
+		padding: 10px 0 10px 20px;
+		margin: 3rem 0 0 0;
+	}
+	
+	.about-main-content-heading-box h2 {
+		font-weight: 100;
+		text-transform: uppercase;
+		font-size: 48px;
+		width: 70%;
+		margin: 0;
+	}
+	
+	.about-main-content-heading-box p {
+		font-weight: 200;
+		font-size: 16px;
+		width: 80%;
+	}
+	
+	.about-main-content-img {
+		width: 352.8px;
+		height: 374.5px;
+		margin: 0;
+		position: absolute;
+		top: 12rem;
+		left: 75rem;
+		z-index: 10;
+	}
+	
+	.about-quote {
+		margin: 80px 0 0 0;
+		width: 100%;
+	}
+	
+	.about-quote span {
+		font-weight: 400;
+	}
+	
+	.about-skills {
+		width: 40vw;
+		height: 40vh;
+		background-color: var(--bg-secondary-color);
+		padding: 10px 0 10px 20px;
+		margin: 0;
+	}
+	
+	.about-skills p {
+		font-weight: 200;
+		font-size: 16px;
+		width: 80%;
+	}
+	
+	.about-skills li {
+		font-weight: 200;
+		font-size: 16px;
+		width: 80%;
+	}
+	
+	/*Secondary content*/
+	.about-secondary-page-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.about-secondary-content-heading-box {
+		width: 35vw;
+		height: 62vh;
+		background: var(--bg-tertiary-color);
+		padding: 15px 15px;
+		position: relative;
+		top: -40rem;
+		left: 8rem;
+	}
+	.about-secondary-content-heading-box h2 {
+		font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+		font-weight: 100;
+		font-size: 28px;
+		margin: 0;
+	}
+	
+	.about-secondary-content-heading-box p {
+		font-weight: 200;
+		font-size: 16px;
+		width: 95%;
+	}
+	
+	.about-secondary-content-heading-box span {
+		font-weight: 400;
+	}
+	
+	.about-secondary-content-heading-box-bottom {
+		width: 35vw;
+		height: 30vh;
+		background: var(--bg-tertiary-color);
+		padding: 20px 10px;
+		position: relative;
+		top: -38rem;
+		left: 8rem;
+	}
+	
+	.about-secondary-content-heading-box-bottom h2 {
+		font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+		font-weight: 100;
+		font-size: 20px;
+		margin: 0;
+	}
+	
+	.about-secondary-content-heading-box-bottom p {
+		font-weight: 200;
+		font-size: 16px;
+		width: 95%;
+	}
+	
+	.about-bottom-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.bottom-img {
+		opacity: 0.1;
+		position: relative;
+		width: 1000px;
+		height: auto;
+		top: -20rem;
+		z-index: 1;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.intro-book-btn {
+		color: var(--txt-primary-color);
+		background-color: var(--btn-bg-secondary-color);
+		padding: 12px 20px;
+		display: flex;
+		width: 280px;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		text-transform: uppercase;
+		margin-top: 15px;
+		z-index: 20;
+		position: relative;
+	}
+
+	#footer {
+		height: 24vh;
+	}
+}
