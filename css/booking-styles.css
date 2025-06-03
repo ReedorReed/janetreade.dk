@@ -5,7 +5,7 @@ main {
 .booking-form-box {
 	width: 100vw;
 	height: 100vh;
-	background-image: url('/images/meditationDaVinciArt.svg');
+	background-image: url('images/meditationDaVinciArt.svg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
