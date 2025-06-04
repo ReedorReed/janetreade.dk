@@ -58,7 +58,6 @@ main {
 }
 
 #form input,
-textarea,
 #submit-btn {
 	border: none;
 	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
@@ -69,22 +68,21 @@ textarea,
 	padding: 8px;
 }
 
-#form textarea {
-	padding: 8px;
-	resize: none;
-	height: 100px;
-}
-
 #date-time {
 	color: rgb(117 117 117);
 }
 
 #submit-btn {
-	margin: 10px;
+	margin: 15px;
 	height: 30px;
 	width: 210px;
 	background-color: var(--btn-bg-secondary-color);
 	text-transform: uppercase;
+}
+
+.ok,
+.check-circle {
+	color: rgb(3, 176, 3);
 }
 
 /*Media Query*/

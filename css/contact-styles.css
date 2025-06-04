@@ -120,6 +120,11 @@ textarea,
 	color: var(--txt-primary-color);
 }
 
+.ok,
+.check-circle {
+	color: rgb(3, 176, 3);
+}
+
 /*Media Query*/
 
 @media (min-width: 768px) {
