@@ -38,6 +38,7 @@ main {
 
 .form-wrapper {
 	width: 90%;
+	height: 400px;
 	background-color: rgba(140, 126, 108, 0.5);
 	padding: 10px 20px;
 	display: flex;
@@ -80,9 +81,8 @@ main {
 	text-transform: uppercase;
 }
 
-.ok,
-.check-circle {
-	color: rgb(3, 176, 3);
+.ok {
+	background-color: rgba(5, 255, 5, 0.2);
 }
 
 /*Media Query*/

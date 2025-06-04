@@ -7,7 +7,6 @@ const email = document.querySelector('#email');
 const dateTime = document.querySelector('#date-time');
 const formMessage = document.querySelector('#form-besked');
 const myBtn = document.querySelector('#submit-btn');
-const checkCircle = document.querySelectorAll('.check-circle');
 
 form.addEventListener('input', formInput);
 
@@ -20,13 +19,11 @@ function formInput(event) {
 		if (validateFirstName(firstNameValue)) {
 			inputTarget.classList.add('ok');
 			inputTarget.classList.remove('error');
-			checkCircle[0].classList.add('fa-regular');
-			checkCircle[0].classList.add('fa-circle-check');
+			
 		} else {
 			inputTarget.classList.add('error');
 			inputTarget.classList.remove('ok');
-			checkCircle[0].classList.remove('fa-regular');
-			checkCircle[0].classList.remove('fa-circle-check');
+			
 		}
 	}
 
@@ -36,13 +33,11 @@ function formInput(event) {
 		if (validateLastName(lastNameValue)) {
 			inputTarget.classList.add('ok');
 			inputTarget.classList.remove('error');
-			checkCircle[1].classList.add('fa-regular');
-			checkCircle[1].classList.add('fa-circle-check');
+			
 		} else {
 			inputTarget.classList.add('error');
 			inputTarget.classList.remove('ok');
-			checkCircle[1].classList.remove('fa-regular');
-			checkCircle[1].classList.remove('fa-circle-check');
+		
 		}
 	}
 
@@ -52,13 +47,11 @@ function formInput(event) {
 		if (isPhoneTrue) {
 			inputTarget.classList.add('ok');
 			inputTarget.classList.remove('error');
-			checkCircle[2].classList.add('fa-regular');
-			checkCircle[2].classList.add('fa-circle-check');
+			
 		} else {
 			inputTarget.classList.add('error');
 			inputTarget.classList.remove('ok');
-			checkCircle[2].classList.remove('fa-regular');
-			checkCircle[2].classList.remove('fa-circle-check');
+			
 		}
 	}
 	// Email validation
@@ -67,13 +60,11 @@ function formInput(event) {
 		if (isEmailTrue) {
 			inputTarget.classList.add('ok');
 			inputTarget.classList.remove('error');
-			checkCircle[3].classList.add('fa-regular');
-			checkCircle[3].classList.add('fa-circle-check');
+			
 		} else {
 			inputTarget.classList.add('error');
 			inputTarget.classList.remove('ok');
-			checkCircle[3].classList.remove('fa-regular');
-			checkCircle[3].classList.remove('fa-circle-check');
+		
 		}
 	}
 
@@ -83,13 +74,11 @@ function formInput(event) {
 		if (isDateTimeValid) {
 			inputTarget.classList.add('ok');
 			inputTarget.classList.remove('error');
-			checkCircle[4].classList.add('fa-regular');
-			checkCircle[4].classList.add('fa-circle-check');
+			
 		} else {
 			inputTarget.classList.add('error');
 			inputTarget.classList.remove('ok');
-			checkCircle[4].classList.remove('fa-regular');
-			checkCircle[4].classList.remove('fa-circle-check');
+			
 		}
 	}
 }
