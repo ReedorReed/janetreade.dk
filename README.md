@@ -125,7 +125,7 @@ Overall, indie businesses are characterized by their independence and their desi
 
 ## Project Status
 
-🚧 Under development
+🎉 Finished
 
 ---
 
