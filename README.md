@@ -49,8 +49,8 @@ This project challenges me to develop a website for a self-chosen indie business
 - Implementation of HTML, CSS, and JavaScript
 - Development of contact form and gallery
 - Optimization of user experience and speed
-- Documentation through logbook and code comments
-- Deployment of the website on Netlify
+- Documentation through code comments
+- Deployment of the website on GitHub Pages
 
 ## Styleguide
 
@@ -59,8 +59,6 @@ The style guide contains the following elements:
 - Color palette
 - Fonts and sizes
 - Font weights
-- Hover effects and animations
-- Component library
 
 [Link for Figma styleguide](/Indie-project-Page-Design.pdf)
 [Link to Trello](https://trello.com/invite/b/682721fcfd0a28cd8adda784/ATTIcf9bbdc5c95eed10452fb0943339e210CB778C91/indie-project)
