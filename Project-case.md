@@ -4,11 +4,12 @@
 
 Websitet vil være en side for en livsstils-/ledelse-/erhvervscoach.
 
-- Der vil være en webshop, hvor klienter kan booke sessioner og også købe e-bøger.
 - Der vil være en blogside med gratis tips.
 - Hver side skal have en call-to-action, der opfordrer folk til at booke en session.
 - Der skal være en side med GDPR, handelsbetingelser osv.
-- Der skal være en side med priser.
+- Der skal være en bookingside.
+- Der skal være en kontaktside
+- Der skal være en om mig side
 
 ## Koncept og Vision
 

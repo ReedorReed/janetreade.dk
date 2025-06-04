@@ -1,6 +1,6 @@
-# JanetReade.dk Project
+# Indie Web Development Project
 
-- [JanetReade.dk Project](#janetreadedk-project)
+- [Indie Web Development Project](#indie-web-development-project)
   - [Project Description](#project-description)
     - [Key Features](#key-features)
   - [Technologies](#technologies)
@@ -17,7 +17,7 @@
 
 ## Project Description
 
-This project challenges me to develop a website for a life/business coach. The purpose is to create an aesthetically pleasing and user-friendly website that effectively communicates the business concept and values. The project allows you to apply and demonstrate web development skills learned throughout the foundation course.
+This project challenges me to develop a website for a self-chosen indie business. The purpose is to create an aesthetically pleasing and user-friendly website that effectively communicates the business concept and values. The project allows you to apply and demonstrate web development skills learned throughout the foundation course.
 
 ### Key Features
 
@@ -62,32 +62,41 @@ The style guide contains the following elements:
 - Hover effects and animations
 - Component library
 
-[Link til Figma styleguide](link/to/figma/styleguide)
+[Link for Figma styleguide](/Indie-project-Page-Design.pdf)
 
 ## Project Structure
 
 ```text
 
 indie-project/
-├── assets/            # Pictures, icons & other media
-│   ├── images/        # Website pictures
-│   ├── icons/         # Icons & graphic elements
-│   └── fonts/         # Fonts
-├── css/               # Stylesheets
-│   ├── styles.css     # Main stylesheet
-│   ├── gallery.css    # Styling for gallery
-│   └── form.css       # Styling for contact form
-├── js/                # JavaScript files
-│   ├── script.js      # Main script
-│   ├── gallery.js     # Functionality for gallery
-│   └── form.js        # Validation & functionality for form
-├── index.html         # Front page
-├── about.html         # About page
-├── booking.html       # Booking page
-├── blog.html          # Blog
-├── contact.html       # Contact page
-├── styleguide.html    # Visual styleguide
-└── README.md          # Projekt documentation
+├── 
+│   ├── images/                 # Images
+│   ├── icons/                  # Icons and graphics
+│ 
+├── css/                        # Stylesheets
+│   ├── about-styles.css        # About me stylesheet
+│   ├── base-reset.css          # Reset stylesheet
+│   ├── blog-styles.css         # Blog stylesheet
+│   ├── booking-styles.css      # Booking stylesheet
+│   ├── contact-styles.css      # Contact me stylesheet
+│   ├── gallery.css             # Blog gallery stylesheet
+│   ├── global-mediaQueries.css # Global media query stylesheet
+│   ├── global-styles.css       # Global stylesheet (menu&footer)
+│   ├── main-styles.css         # Index stylesheet
+│   └── privacy-conditions.css  # Privacy and Conditions stylesheet
+├── js/                         # JavaScript files
+│   ├── script.js               # Main script
+│   ├── gallery.js              # Functionality for Blog gallery
+│   └── form.js                 # Validation for form
+├── index.html                  # Front page
+├── about.html                  # About me
+├── booking.html                # Booking page
+├── blog.html                   # Blog page
+├── contact.html                # Contact page
+├── privacy.html                # Privacy page
+├── handelsbetingelser.html     # Conditions page
+├── styleguide.pdf              # Visuel styleguide
+└── README.md                   # Projekt documentation
 ```
 
 ## Deadlines
