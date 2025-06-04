@@ -1,0 +1,46 @@
+main {
+	margin-top: 16rem;
+	padding: 0 20px;
+}
+
+.privatlivspolitik-main-content-heading-box h2 {
+	font-weight: 100;
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	width: 70%;
+	margin: 0;
+}
+
+.privatlivspolitik-text-section p,
+li {
+	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	font-size: 13px;
+	width: 80%;
+}
+
+.privatlivspolitik-text-section span {
+	font-weight: 400;
+}
+
+.handelsbetingelser-main-content-heading-box h2 {
+	font-weight: 100;
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	width: 70%;
+	margin: 0;
+}
+
+.handelsbetingelser-text-section p,
+li {
+	font-family: 'Source Serif 4', Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	font-size: 13px;
+	width: 80%;
+}
+
+.handelsbetingelser-text-section span {
+	font-weight: 400;
+}

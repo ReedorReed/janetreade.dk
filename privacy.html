@@ -8,32 +8,64 @@
 		<link
 			href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
 			rel="stylesheet" />
-		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/base-reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/privacy-conditions.css" />
+		<link rel="stylesheet" type="text/css" href="css/global-styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/global-mediaQueries.css" />
 		<title>Janet|Reade - Privatlivspolitik</title>
 	</head>
 	<body>
 		<div id="container">
+			<div class="overlay" id="overlay"></div>
 			<header id="header">
-				<nav>
+				<div class="header-top">
+					<a href="index.html">
+						<img
+							src="images/Logo.svg"
+							alt="Janet Reade, Livsstil, Mindset Logo"
+							class="header-logo" />
+					</a>
+
+					<div class="hamburger" id="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+
+				<a href="booking.html" class="mobile-book-btn">
+					<img
+						src="icons/calendarIcon.svg"
+						alt="kalender ikon"
+						class="calender-icon" />
+					Book Tid
+				</a>
+
+				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Hjem</a></li>
 						<li><a href="about.html">Om mig</a></li>
 						<li>
-							<a href="index.html"
-								><img
-									src="images/headerLogo.svg"
+							<a href="index.html">
+								<img
+									src="images/Logo.svg"
 									alt="Janet Reade, Livsstil, Mindset Logo"
-									class="header-logo"
-							/></a>
+									class="header-logo menu-logo" />
+							</a>
 						</li>
 						<li><a href="booking.html">Booking</a></li>
 						<li><a href="blog.html">Blog</a></li>
 						<li><a href="contact.html">Kontakt</a></li>
 					</ul>
 				</nav>
-				<a href="booking.html"
-					><img src="icons/calendarIcon.svg" alt="" />Book Tid</a
-				>
+
+				<a href="booking.html" class="desktop-book-btn">
+					<img
+						src="icons/calendarIcon.svg"
+						alt="kalender ikon"
+						class="calender-icon" />
+					Book Tid
+				</a>
 			</header>
 			<main>
 				<article class="privatlivspolitik-main-page-section">
@@ -41,17 +73,89 @@
 						<h2>Privatlivspolitik</h2>
 						<div class="privatlivspolitik-text-section">
 							<p>
-								<span>Dataansvarlig</span>Vi er dataansvarlig for behandlingen
-								af de personoplysninger, som vi behandler om vores kunder og
-								samarbejdspartnere. Du finder vores kontaktoplysninger nedenfor.
-								Janet Reade Dyssevænget 16 CVR-nr.: 41207973 Det er ikke et
-								krav, at vores virksomhed har en ekstern DPO, men hvis du har
-								spørgsmål til behandlingen af dine personoplysninger, så kan du
-								kontakte os via [mailadresse]. Behandlingsaktiviteter Som
-								dataansvarlig jf. GDPR, så har vi følgende
-								behandlingsaktiviteter. Besøg på hjemmeside Når du besøger vores
-								hjemmeside, så anvender vi cookies for at hjemmesiden kan
-								fungere, hvilket du kan læse mere om i vores [cookiepolitik].
+								<span>Dataansvarlig </span> <br />
+								Vi er dataansvarlig for behandlingen af de personoplysninger,
+								som vi behandler om vores kunder og samarbejdspartnere. Du
+								finder vores kontaktoplysninger under kontakt i menuen.
+							</p>
+							<p>
+								Det er ikke et krav, at vores virksomhed har en ekstern DPO, men
+								hvis du har spørgsmål til behandlingen af dine
+								personoplysninger, så kan du kontakte os via info@janetreade.dk.
+							</p>
+							<p>
+								Behandlingsaktiviteter Som dataansvarlig jf. GDPR, så har vi
+								følgende behandlingsaktiviteter. Besøg på hjemmeside Når du
+								besøger vores hjemmeside, så anvender vi cookies for at
+								hjemmesiden kan fungere.
+							</p>
+							<span>Cookiepolitik for JanetReade.dk </span>
+
+							<p>
+								Denne cookiepolitik forklarer, hvordan JanetReade.dk bruger
+								cookies og lignende teknologier til at indsamle og gemme
+								information, når du besøger vores hjemmeside. Hvad er cookies?
+							</p>
+							<p>
+								Cookies er små tekstfiler, der gemmes på din computer eller
+								mobilenhed, når du besøger en hjemmeside. De bruges bredt til at
+								få hjemmesider til at fungere mere effektivt, samt til at give
+								information til ejerne af hjemmesiden.
+							</p>
+							<p>Hvordan bruger vi cookies?</p>
+
+							<p>Vi bruger cookies til forskellige formål, herunder:</p>
+							<ul>
+								<li>
+									Nødvendige cookies: Disse cookies er essentielle for, at
+									hjemmesiden kan fungere korrekt. De muliggør grundlæggende
+									funktioner som sidetavigering og adgang til sikre områder af
+									hjemmesiden. Uden disse cookies kan hjemmesiden ikke levere de
+									tjenester, du anmoder om.
+								</li>
+								<li>
+									Funktionelle cookies: Disse cookies gør det muligt for
+									hjemmesiden at huske valg, du har foretaget (såsom dit
+									brugernavn, sprog eller region), og giver forbedrede, mere
+									personlige funktioner.
+								</li>
+								<li>
+									Ydeevne- og analysecookies: Disse cookies hjælper os med at
+									forstå, hvordan besøgende interagerer med hjemmesiden ved at
+									indsamle og rapportere information anonymt. Dette giver os
+									mulighed for at forbedre hjemmesidens ydeevne og
+									brugervenlighed.
+								</li>
+								<li>
+									Marketing- og tredjepartscookies: Disse cookies bruges til at
+									spore besøgende på tværs af hjemmesider. Formålet er at vise
+									annoncer, der er relevante og engagerende for den enkelte
+									bruger. Disse cookies kan også indstilles af
+									tredjepartstjenester, hvis funktioner vi har integreret på
+									vores hjemmeside (f.eks. sociale medier).
+								</li>
+							</ul>
+
+							<p>
+								Dine cookiepræferencer Du har mulighed for at administrere og
+								slette cookies. De fleste webbrowsere giver dig mulighed for at
+								kontrollere cookies via browserindstillingerne. Du kan indstille
+								din browser til at blokere alle cookies eller til at advare dig,
+								når en cookie forsøges placeret på din enhed. Vær dog opmærksom
+								på, at hvis du blokerer cookies, kan det påvirke
+								funktionaliteten af vores hjemmeside og andre hjemmesider, du
+								besøger. For mere information om, hvordan du administrerer
+								cookies i din specifikke browser, kan du typisk finde hjælp i
+								browserens "Hjælp"-sektion eller ved at søge online. Ændringer i
+								vores cookiepolitik Vi kan opdatere denne cookiepolitik fra tid
+								til anden for at afspejle ændringer i vores praksis eller af
+								andre operationelle, juridiske eller reguleringsmæssige årsager.
+								Vi vil informere dig om væsentlige ændringer ved at placere en
+								meddelelse på vores hjemmeside. Kontakt os Hvis du har spørgsmål
+								til vores brug af cookies eller denne cookiepolitik, er du
+								velkommen til at kontakte os på: info@janetreade.dk
+							</p>
+							<p>
 								Kommunikation med potentielle kunder Når du har spørgsmål til
 								vores side, eller ønsker at høre mere om vores services, så kan
 								du kontakte os via: Kontaktformular Email Telefon   Herigennem
@@ -68,7 +172,7 @@
 								tid, så vil dette kunne være tilfældet.
 							</p>
 							<p>
-								<span>Kunder</span> Vi har behov for at kommunikere med vores
+								<span>Kunder </span> Vi har behov for at kommunikere med vores
 								kunder, så vi sikrer os, at ydelsen leveres korrekt. Herigennem
 								kan vi behandle oplysninger om navn, adresse, ydelser, særlige
 								aftaler, betalingsinformationer og lignende.  Hjemlen til at
@@ -78,7 +182,7 @@
 								vil vi umiddelbart herefter slette personoplysningerne.
 							</p>
 							<p>
-								<span>Nyhedsbrev</span> Vi har et nyhedsbrev, som det er
+								<span>Nyhedsbrev </span> Vi har et nyhedsbrev, som det er
 								frivilligt at tilmelde sig – og du kan altid framelde dig dette
 								igen.  Formålet med nyhedsbrevet er at sende de tilmeldte mails
 								med ny information fra virksomheden, som kan omhandle nyt
@@ -101,7 +205,7 @@
 								Forbrugerombudsmandens spamvejledning afsnit 11.3. 
 							</p>
 							<p>
-								<span>Bogføring</span>Vi skal gemme alle regnskabsbilag jf.
+								<span>Bogføring </span>Vi skal gemme alle regnskabsbilag jf.
 								bogføringsloven. Det betyder, at vi gemmer fakturaer og lignende
 								bilag til brug for regnskabsføring. Heraf kan der fremgå
 								almindelige personoplysninger som navn, adresse,
@@ -112,7 +216,7 @@
 								regnskabsår er afsluttet. 
 							</p>
 							<p>
-								<span>Databehandlere</span>Få kan klare alt selv, og det samme
+								<span>Databehandlere </span>Få kan klare alt selv, og det samme
 								gælder os. Vi har derfor samarbejdspartnere, samt benytter os af
 								leverandører, hvoraf nogle kan være databehandlere. Eksterne
 								leverandører kan eksempelvis levere systemer til at organisere
@@ -127,20 +231,20 @@
 								for at højne sikkerheden af dine personoplysninger.
 							</p>
 							<p>
-								<span>Videregivelse af personoplysninger</span>Vi videregiver
+								<span>Videregivelse af personoplysninger </span>Vi videregiver
 								ikke dine personoplysninger til tredjemand. Profilering og
 								automatiserede afgørelser Vi foretager ikke profilering eller
 								automatiserede afgørelser.
 							</p>
 							<p>
-								<span>Tredjelandeoverførsler</span> Vi benytter som udgangspunkt
-								databehandlere i EU/EØS, eller som opbevarer data i EU/EØS.  I
-								nogle tilfælde er dette ikke muligt, og her kan der benyttes
-								databehandlere udenfor EU/EØS, hvis disse kan give dine
+								<span>Tredjelandeoverførsler </span> Vi benytter som
+								udgangspunkt databehandlere i EU/EØS, eller som opbevarer data i
+								EU/EØS.  I nogle tilfælde er dette ikke muligt, og her kan der
+								benyttes databehandlere udenfor EU/EØS, hvis disse kan give dine
 								personoplysninger en passende beskyttelse.
 							</p>
 							<p>
-								<span>Behandlingssikkerhed</span> Vi holder behandlingen af
+								<span>Behandlingssikkerhed </span> Vi holder behandlingen af
 								personoplysninger sikker ved at have indført passende tekniske
 								og organisatoriske foranstaltninger.  Vi har lavet
 								risikovurderinger af vores behandling af personoplysninger, og
@@ -151,7 +255,7 @@
 								samt ved at gennemgå vores GDPR-procedurer med medarbejderne. 
 							</p>
 							<p>
-								<span>De registreredes rettigheder</span>
+								<span>De registreredes rettigheder </span>
 								Du har efter databeskyttelsesforordningen en række rettigheder i
 								forhold til vores behandling af oplysninger om dig. Hvis du vil
 								gøre brug af dine rettigheder skal du kontakte os, så vi kan
@@ -192,20 +296,24 @@
 					</div>
 				</article>
 			</main>
-			<footer>
-                <figure><img src="images/Logo.svg" alt="Janet reade logo"></figure>
-				<div class="footer-info">
-					<a href="tel:+4523480027">Tlf: +45 23 48 00 27</a>
-					<a href="mailto:info@janetreade.dk">E-mail: info@janetreade.dk</a>
-					<p>CVR: 41207973</p>
-					<a href="https://janetreade.dk">JanetReade.dk</a>
-				</div>
-				<div class="betingelser">
-					<a href="privacy.html">Privatlivspolitik</a>
-					<a href="handelsbetingelser.html">Handelsbetingelser</a>
+			<footer id="footer">
+				<div class="footer-wrapper">
+					<figure><img src="images/Logo.svg" alt="Janet reade logo" /></figure>
+					<div class="footer-info">
+						<div class="tlfMail">
+							<a href="tel:+4523480027">Tlf: +45 23 48 00 27</a>
+							<a href="mailto:info@janetreade.dk">E-mail: info@janetreade.dk</a>
+							<a href="privacy.html">Privatlivspolitik</a>
+						</div>
+						<div class="cvrWeb">
+							<p>CVR: 41207973</p>
+							<a href="https://janetreade.dk">JanetReade.dk</a>
+							<a href="handelsbetingelser.html">Handelsbetingelser</a>
+						</div>
+					</div>
 				</div>
 			</footer>
 		</div>
 	</body>
-	<script src="script.js" defer></script>
+	<script src="js/script.js" defer></script>
 </html>
