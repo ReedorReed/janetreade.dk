@@ -63,16 +63,17 @@ The style guide contains the following elements:
 [Link for Figma styleguide](/Indie-project-Page-Design.pdf)
 [Link to Trello](https://trello.com/invite/b/682721fcfd0a28cd8adda784/ATTIcf9bbdc5c95eed10452fb0943339e210CB778C91/indie-project)
 [Link to live website](https://reedorreed.github.io/janetreade.dk/)
+[Link to repository](https://github.com/ReedorReed/janetreade.dk)
 
 ## Project Structure
 
 ```text
 
 indie-project/
-├── 
+├──
 │   ├── images/                 # Images
 │   ├── icons/                  # Icons and graphics
-│ 
+│
 ├── css/                        # Stylesheets
 │   ├── about-styles.css        # About me stylesheet
 │   ├── base-reset.css          # Reset stylesheet
